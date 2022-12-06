@@ -1,0 +1,2 @@
+Aquí hi ha el link per anar al document del collab: 
+https://colab.research.google.com/drive/1XVJcS7A3slXRWu1MCQXV_NIMzl3xbBVP?usp=sharing
