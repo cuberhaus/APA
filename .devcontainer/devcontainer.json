@@ -1,0 +1,19 @@
+{
+  "//": "cuberhaus reproducible dev environment (r). Managed source: cuberhaus-workspace/assets/devcontainers/r. Applied per repo by scripts/apply-devcontainers.ps1.",
+  "name": "cuberhaus r",
+  "image": "mcr.microsoft.com/devcontainers/base:bookworm",
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {},
+    "ghcr.io/devcontainers/features/github-cli:1": {},
+    "ghcr.io/rocker-org/devcontainer-features/r-apt:0": {}
+  },
+  "remoteUser": "vscode",
+  "postCreateCommand": "bash -lc 'if [ -f skills-lock.json ]; then make skills-restore || true; fi; if [ -f renv.lock ]; then Rscript -e \"renv::restore()\" || true; fi'",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "REditorSupport.r"
+      ]
+    }
+  }
+}
