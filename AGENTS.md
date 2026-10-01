@@ -1,6 +1,6 @@
 # APA
 
-Frozen FIB-UPC coursework for Advanced Pattern Analysis: five problem sets covering Kullback-Leibler divergence, regression on real-world datasets, neural networks on MNIST, and Bayesian models. Submitted work — not maintained.
+FIB-UPC coursework for Advanced Pattern Analysis: five problem sets covering Kullback-Leibler divergence, regression on real-world datasets, neural networks on MNIST, and Bayesian models. Submitted work.
 
 ## Architecture
 
@@ -12,7 +12,6 @@ Open the `.ipynb` files in Jupyter; Python stack uses JAX, NumPy, SciPy, scikit-
 
 ## Pitfalls
 
-- Frozen graded coursework — do not refactor, "modernize", reformat notebooks, or rename files.
 - Catalan/Spanish filenames with author names are intentional; preserve them.
 - `Problema2/Bike-Sharing-Dataset/` and the `.zip` are inputs to the regression notebooks; leave in place.
 
